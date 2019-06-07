@@ -15,6 +15,12 @@
       </li>
       <li class="list bd">
         <nuxt-link to="/center">商家中心</nuxt-link>
+        <dl>
+          <dd><nuxt-link to="/userCenter">登陆商家中心</nuxt-link></dd>
+          <dd><nuxt-link to="/coop">我想合作</nuxt-link></dd>
+          <dd><nuxt-link to="/wap">免费手机开店</nuxt-link></dd>
+          <dd><nuxt-link to="/kaipiao">商家申请开票</nuxt-link></dd>
+        </dl>
       </li>
       <li class="list site">
         <nuxt-link to="/site">网站导航</nuxt-link>
