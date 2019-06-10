@@ -1,6 +1,6 @@
 # vue-mt
 
-> My divine Nuxt.js project
+> Nuxt + Vue2.x + Koa2 + Mongo + Redis 开发服务端渲染美团网站项目实战
 
 ## Build Setup
 
