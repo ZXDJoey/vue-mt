@@ -1,26 +1,25 @@
 <template>
-  <el-row :gutter="0" class="m-header">
-    <el-col :span="5">
-      <geo/>
-    </el-col>
-    <el-col :span="5">
-      <user/>
-    </el-col>
-    <el-col :span="14">
-      <navbar/>
-    </el-col>
-  </el-row>
+  <div class="m-header">
+    <el-row>
+      <el-col>
+        <top-bar/>
+      </el-col>
+    </el-row>
+    <el-row>
+      <el-col>
+        <search-bar/>
+      </el-col>
+    </el-row>
+  </div>
 </template>
 
 <script>
-import Geo from './geo'
-import User from './user'
-import Navbar from './nav'
+import topBar from './topbar'
+import searchBar from './searchBar'
 export default {
   components: {
-    Geo,
-    User,
-    Navbar
+    topBar,
+    searchBar
   }
 }
 </script>

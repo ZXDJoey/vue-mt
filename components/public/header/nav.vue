@@ -24,6 +24,48 @@
       </li>
       <li class="list site">
         <nuxt-link to="/site">网站导航</nuxt-link>
+        <div class="subContainer">
+          <dl class="hotel">
+            <dt>酒店旅游</dt>
+            <dd>1</dd>
+          </dl>
+          <dl class="food">
+            <dt>吃美食</dt>
+            <dd>1</dd>
+          </dl>
+          <dl class="movie">
+            <dt>看电影</dt>
+            <dd>1</dd>
+          </dl>
+          <dl class="app">
+            <dt>手机应用</dt>
+            <dd>
+              <a href="">
+                <img src="//s0.meituan.net/bs/fe-web-meituan/e5eeaef/img/appicons/meituan.png" title="美app" alt="美团app">
+              </a>
+            </dd>
+            <dd>
+              <a href="">
+                <img src="//s1.meituan.net/bs/fe-web-meituan/404d350/img/appicons/waimai.png" title="外卖app" alt="外卖app">
+              </a>
+            </dd>
+            <dd>
+              <a href="">
+                <img src="//s0.meituan.net/bs/fe-web-meituan/404d350/img/appicons/zhenguo.png" title="榛果app" alt="榛果app">
+              </a>
+            </dd>
+            <dd>
+              <a href="">
+                <img src="//s1.meituan.net/bs/fe-web-meituan/404d350/img/appicons/dianping.png" title="点评app" alt="点评app">
+              </a>
+            </dd>
+            <dd>
+              <a href="">
+                <img src="//s1.meituan.net/bs/fe-web-meituan/404d350/img/appicons/maoyan.png" title="猫眼app" alt="猫眼app">
+              </a>
+            </dd>
+          </dl>
+        </div>
       </li>
     </ul>
   </div>
