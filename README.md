@@ -1,6 +1,6 @@
 # vue-mt
 
-> Nuxt + Vue2.x + Koa2 + Mongo + Redis 开发服务端渲染美团网站项目实战
+> Nuxt.js + Vue 2.x + Koa2 + Mongodb + Redis 开发服务端渲染美团网站项目实战
 
 ## Build Setup
 
