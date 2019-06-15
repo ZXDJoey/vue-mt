@@ -49,6 +49,7 @@
 </template>
 
 <script>
+import CryptoJs from 'crypto-js'
 export default {
   layout: "blank",
   data () {
