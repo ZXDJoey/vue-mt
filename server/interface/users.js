@@ -175,7 +175,7 @@ router.get('/exit', async (ctx, next) => {
 // 获取用户名
 router.get('/getUser', async (ctx, next) => {
   if (ctx.isAuthenticated()) {
-    const { username, email } = ctx.session.Passport.user
+    const { username, email } = ctx.session.passport.user
     ctx.body = {
       user: username,
       email

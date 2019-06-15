@@ -20,8 +20,8 @@
         <p>
           <span>账号登录</span>
         </p>
-        <el-input v-model="username" prefix-icon="profile"/>
-        <el-input v-model="password" prefix-icon="password" type="password"/>
+        <el-input v-model="username" placeholder="请输入用户名" prefix-icon="profile"/>
+        <el-input v-model="password" placeholder="请输入密码" prefix-icon="password" type="password"/>
         <div class="foot">
           <el-checkbox v-model="checked">7天内自动登录</el-checkbox>
           <b>忘记密码？</b>
