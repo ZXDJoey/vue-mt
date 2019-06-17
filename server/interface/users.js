@@ -157,7 +157,6 @@ router.post('/verify', async (ctx, next) => {
   }
 })
 
-
 // 退出登录
 router.get('/exit', async (ctx, next) => {
   await ctx.logout()
