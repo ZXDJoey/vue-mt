@@ -128,7 +128,7 @@ export default {
               this.statusMsg = `验证码已发送，剩余${count--}秒`
               if(count === 0) {
                 clearInterval(this.timerid)
-                this.statusMsg = ""
+                this.statusMsg = ''
               }
             }, 1000)
           } else {
