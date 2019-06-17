@@ -10,7 +10,7 @@ let router = new Router({
 // const sign = Config.sign
 
 // [postman](http://localhost:3000/geo/getPosition)
-router.get('/getPosition', async ctx => {
+router.get('/getPosition', async (ctx) => {
   const result = await Positon.findOne() // Operating a local database
   ctx.body = {
     province: result.province,
